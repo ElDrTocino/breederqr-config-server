@@ -11,3 +11,14 @@ management:
   tracing:
     sampling:
       probability: 1.0
+      
+spring:      
+  datasource:
+    url: jdbc:mysql://localhost:3306/breederqr
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  liquibase:
+    change-log: classpath:/db/changelog/db-changelog-master.xml
