@@ -21,4 +21,4 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
   liquibase:
-    change-log: classpath:/db/changelog/db-changelog-master.xml
+    change-log: classpath:/db/changelog/db-changelog-master.yaml
