@@ -18,7 +18,5 @@ spring:
     username: root
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect
   liquibase:
     change-log: classpath:/db/changelog/db-changelog-master.yaml
